@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
-  <meta charset="utf-8">
-  <title>Benvenuto sul mio sito!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Davide Settecasi</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Ciao, sono Davide 👋</h1>
-  <p>Qui puoi trovare i miei progetti su GitHub.</p>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <h1>Ciao, sono <span>Davide Settecasi</span></h1>
+      <p>Sviluppatore web e studente di Informatica. Creo esperienze web moderne e intuitive.</p>
+      <a href="#projects" class="btn">I miei progetti</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about container">
+    <h2>Chi sono</h2>
+    <p>Sono uno studente universitario appassionato di sviluppo web, programmazione e nuove tecnologie. Mi piace creare progetti funzionali e curati nei dettagli, con un occhio all’esperienza utente.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects container">
+    <h2>Progetti</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Progetto 1</h3>
+        <p>Una breve descrizione del progetto. Tecnologie: HTML, CSS, JavaScript.</p>
+        <a href="#" target="_blank">GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Progetto 2</h3>
+        <p>Una breve descrizione del progetto. Tecnologie: Python, Flask.</p>
+        <a href="#" target="_blank">GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>Progetto 3</h3>
+        <p>Una breve descrizione del progetto. Tecnologie: React, Tailwind CSS.</p>
+        <a href="#" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills container">
+    <h2>Competenze</h2>
+    <ul class="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Python</li>
+      <li>Git/GitHub</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact container">
+    <h2>Contatti</h2>
+    <p>Puoi contattarmi tramite email o visitando i miei profili social:</p>
+    <ul>
+      <li>Email: <a href="mailto:davide@example.com">davide@example.com</a></li>
+      <li>GitHub: <a href="https://github.com/davidesettecasi" target="_blank">github.com/davidesettecasi</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/davidesettecasi/" target="_blank">linkedin.com/in/davidesettecasi</a></li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Davide Settecasi. Tutti i diritti riservati.</p>
+  </footer>
 </body>
 </html>
+
